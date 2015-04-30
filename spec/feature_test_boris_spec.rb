@@ -1,3 +1,6 @@
+require 'dockingstation'
+
+
 feature "Docking station releases bikes" do
 	scenario "Bike is released to user from docking station" do
 		station = DockingStation.new
